@@ -8,9 +8,12 @@ INSTALLATION:
 
 - Select "Code" at the top of the repository, and click Download Zip.
 - Extract files in the .zip downloaded
+
+# For steps below, files are located in the AutoDeafen+ folder in your extracted files.
+
 - Drag all descendants in the Resources folder to your Resources folder in geometry dash local files
 - Drag AutoDeafen+.dll into the Extensions folder in your geometry dash local files.
-- Add a new deafen keybind on discord set to Right Shift + F7
+- Add a new deafen keybind on discord set to Right Shift + F7. (Don't worry, you can set multiple deafen keybinds so your normal one won't be affected.)
 - Create keybinds by the icon in the bottom left on pause screens!
 - Toggle the mod in the megahack menu, in the window labeled "AutoDeafen+".
 
