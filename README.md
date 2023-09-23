@@ -1,6 +1,6 @@
 # AutoDeafen-Plus
 
-AutoDeafen+ is a geometry dash mod extension to the Auto Deafen mod in Megahack v7. This mod is in beta so many QOL features aren't available yet, but will soon, like selecting keybinds, copying presets etc.
+AutoDeafen+ is a geometry dash mod extension to the Auto Deafen mod in Megahack v7. This mod is in alpha so many QOL features aren't available yet, but will soon, like selecting keybinds etc.
 
 It allows you to create "Auto Deafen Presets" for levels, so you don't have to change your auto deafen every time you play a new level, as it will switch automatically when you play it. These also work for start positions, so auto deafen with startpos is now much easier as it is pre-set!
 
