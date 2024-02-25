@@ -277,7 +277,7 @@ class $modify(PauseLayer) {
 		auto director = CCDirector::sharedDirector();
 		auto size = director->getWinSize();
 
-		auto spr = CCSprite::create("startPos_button_ad+.png");
+		auto spr = CCSprite::create("startPos_button_ad+.png"_spr);
 		spr->setScale(0.3f);
 	
 		auto btn = CCMenuItemSpriteExtra::create(spr, this, menu_selector(SpMenu::open_sp_callback));

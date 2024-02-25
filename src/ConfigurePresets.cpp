@@ -112,9 +112,9 @@ class $modify(EditLevelLayer) {
         auto director = CCDirector::sharedDirector();
         auto size = director->getWinSize();
 
-        CCSprite* delete_button = CCSprite::create("delete_button_ad+.png");
-        CCSprite* copy_button = CCSprite::create("copy_button_ad+.png");
-        CCSprite* paste_button = CCSprite::create("paste_button_ad+.png");
+        CCSprite* delete_button = CCSprite::create("delete_button_ad+.png"_spr);
+        CCSprite* copy_button = CCSprite::create("copy_button_ad+.png"_spr);
+        CCSprite* paste_button = CCSprite::create("paste_button_ad+.png"_spr);
 
         auto deleteButton = CCMenuItemSpriteExtra::create(delete_button, this, menu_selector(LevelEditMenu::delete_callback));
         deleteButton->setPosition({ 1450, 180 });
@@ -141,13 +141,13 @@ class $modify(LevelInfoLayer) {
     bool init(GJGameLevel* level, bool p1) {
         levelName = std::to_string(level->m_levelID);
 
-        bool result = LevelInfoLayer::init(level, true);
+        bool result = LevelInfoLayer::init(level, false);
         auto director = CCDirector::sharedDirector();
         auto size = director->getWinSize();
 
-        CCSprite* delete_button = CCSprite::create("delete_button_ad+.png");
-        CCSprite* copy_button = CCSprite::create("copy_button_ad+.png");
-        CCSprite* paste_button = CCSprite::create("paste_button_ad+.png");
+        CCSprite* delete_button = CCSprite::create("delete_button_ad+.png"_spr);
+        CCSprite* copy_button = CCSprite::create("copy_button_ad+.png"_spr);
+        CCSprite* paste_button = CCSprite::create("paste_button_ad+.png"_spr);
 
         auto deleteButton = CCMenuItemSpriteExtra::create(delete_button, this, menu_selector(LevelEditMenu::delete_callback));
         deleteButton->setPosition({ 1450, -320 });
